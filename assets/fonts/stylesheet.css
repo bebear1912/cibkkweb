@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'ekkamai_standard';
+    src: url('ekkamaistandard-light-webfont.eot');
+    src: url('ekkamaistandard-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('ekkamaistandard-light-webfont.woff2') format('woff2'),
+         url('ekkamaistandard-light-webfont.woff') format('woff'),
+         url('ekkamaistandard-light-webfont.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+
+}

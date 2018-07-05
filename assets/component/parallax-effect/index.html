@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>jQuery Paralaxbg.js Plugin Demo</title>
+    <!-- <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css"> -->
+	<style>
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  
+}
+
+body { min-height:2000px}
+.container {
+  padding: 200px 0;
+  margin: 200px 0;
+  background-size: 100%;
+  background-position: 50% 50%;
+}
+
+.content {
+  width: 50%;
+  margin: 0 auto;
+  padding: 50px 20px;
+  color: #000;
+  font-size: 20px;
+  font-weight: bold;
+  border: 2px solid #fff;
+  text-align: center;
+  background: rgba(255,255,255,0.7);
+}
+</style>
+	</head>
+
+	<body>
+    <div id="jquery-script-menu">
+      <div class="jquery-script-center">
+        <ul>
+          <li><a href="http://www.jqueryscript.net/animation/Minimalist-Background-Parallax-Effect-with-jQuery-Paralaxbg-js.html">Download This Plugin</a></li>
+          <li><a href="http://www.jqueryscript.net/">Back To jQueryScript.Net</a></li>
+        </ul>
+
+        <div class="jquery-script-clear"></div>
+      </div>
+    </div>
+
+    <div class="container paralaxbg" style="background-image:url(https://unsplash.it/1800/1600?image=945)">
+      <div class="content">
+        <p> jQuery Paralaxbg.js Plugin Demo </p>
+      </div>
+    </div>
+
+    <script src="../js/jquery-1.11.3.min.js"></script> 
+    <script src="paralaxbg.js"></script> 
+    <script>initParalaxBg();</script>
+    
+</body>
+</html>

@@ -1,0 +1,38 @@
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .navbar a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  
+.sider {
+    padding: 343px 0;
+    /* margin: 275px 0; */
+    width: 100%;
+    background-size: 100%;
+    background-position: 50% 50%;
+  }
+  
+  .sider-content {
+    /* width: 50%; */
+    /* margin: 0 auto; */
+    /* padding: 50px 20px; */
+    color: #fff;
+    font-size: 70px;
+    font-weight: bold;
+    /* border: 2px solid #fff; */
+    text-align: center;
+    /* background: rgba(255,255,255,0.7); */
+  }
