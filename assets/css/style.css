@@ -3,7 +3,10 @@
     background-color: #333;
     position: fixed;
     top: 0;
+    right: 0;
     width: 100%;
+    border-radius: 0;
+    
   }
   
   .navbar a {
@@ -35,4 +38,8 @@
     /* border: 2px solid #fff; */
     text-align: center;
     /* background: rgba(255,255,255,0.7); */
+  }
+
+  body {
+    overflow-x: hidden;
   }
